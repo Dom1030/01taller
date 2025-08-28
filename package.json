@@ -1,0 +1,33 @@
+{
+  "name": "library.system",
+  "version": "1.1.0",
+  "description": "Sistema de gestión de biblioteca avanzado con préstamos, devoluciones, búsquedas, reportes y manejo de multas.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js",
+    "dev": "node -r ./library.js test.js",
+    "lint": "eslint . || exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dom1030/01taller.git"
+  },
+  "keywords": [
+    "library",
+    "management",
+    "books",
+    "borrow",
+    "return",
+    "reports"
+  ],
+  "author": "Dom1030",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dom1030/01taller/issues"
+  },
+  "homepage": "https://github.com/Dom1030/01taller#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
